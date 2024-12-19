@@ -1,3 +1,6 @@
 [submodule "kas"]
 	path = kas
 	url = https://github.com/xroumegue/kas.git
+[submodule "configs"]
+	path = configs
+	url = https://github.com/xroumegue/yocto-kas-configs.git
