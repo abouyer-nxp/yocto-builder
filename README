@@ -1,0 +1,17 @@
+# Getting started
+
+## Get the things ready
+
+```
+johndoe@foobar:~# dnf install docker podman
+johndoe@foobar:~# git clone https://github.com/xroumegue/yocto-builder.git
+johndoe@foobar:~# cd yocto-builder
+johndoe@foobar:yocto-builder# git submodule update --init 
+```
+
+## Build a platform
+
+```
+johndoe@foobar:yocto-builder# ./build.sh build configs/genericarm64.yaml
+```
+
